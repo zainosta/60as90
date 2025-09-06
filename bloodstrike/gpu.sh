@@ -22,7 +22,7 @@ settings put global debug.hwui.path_cache_size 32
 settings put global debug.hwui.gradient_cache_size 4
 
 # Stable 60 FPS lock
-settings put global persist.sys.NV_FPSLIMIT 90
+settings put global persist.sys.NV_FPSLIMIT 60
 settings put global persist.sys.gpu.force 1
 
 echo "✅ GPU locked at smooth 90FPS"
